@@ -19,7 +19,7 @@ pkgdesc="MeeGo resource management low level C API libraries"
 arch=('x86_64' 'aarch64')
 url="https://$_host/$_project/$_gitname#branch=$_branch"
 license=('LGPL-2.1-only')
-depends=('dbus' 'dbus-glib' 'check')
+depends=('dbus-glib' 'check')
 makedepends=('git' 'automake' 'autoconf' 'libtool')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
